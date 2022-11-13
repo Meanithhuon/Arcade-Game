@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+        <div id="gameContainer">
+  
+          <h1 class="gameTitle"> Tic Tac Toe</h1>
+         
+      </div>
+      &nbsp
+      &nbsp
+     <p> Enter player 1's name and press the Start Game button to play.</p>
+     &nbsp
+     &nbsp
+  
+  
+        <form id="playerForm">
+  
+          <div class="player-container">
+  
+            <label for="player1">Player 1</label>
+  
+            <input
+  
+              
+              placeholder="Enter Player 1's Name"
+  
+            
+  
+              id="player1"
+  
+              class="inputPlayer"
+  
+            />
+  
+          </div>
+  
+          
+          </div>
+  
+          <input type="submit" class="startGameButton" value="Start Game" />
+  
+        </form>
+  
+      </div>
+  
+      <section id="gameBoard" class= "gameContainer hideGamecontainer">
+
+        <div id = "messageContainer" class="messageAndControls ">
+
+
+                  
+
+            <h1 id = "playerOne" class="players"> Player 1 </p>
+              
+
+                <h1 id= "playerTwo" class="players"> Computer</p>
+
+                  
+
+
+
+        <h1 id="displaymessage"></h1>
+
+        <button id="startOver" class = " startOverbutton">CLEAR BOARD</button>
+    </div>
+
+
+        <div id="itemContainer" class = "itemsList">
+
+            <div itemIndex="0" class="item"></div>
+            <div itemIndex="1" class="item"></div>
+            <div itemIndex="2" class="item"></div>
+            <div itemIndex="3" class="item"></div>
+            <div itemIndex="4" class="item"></div>
+            <div itemIndex="5" class="item"></div>
+            <div itemIndex="6" class="item"></div>
+            <div itemIndex="7" class="item"></div>
+            <div itemIndex="8" class="item"></div>
+        </div>
+
+
+        <div>
+            <a href="index.html"> 
+             
+             <button class="homeButton">
+                 HOME</button></a>
+                
+         </div> 
+        </section>
+    
+    <script src="onePlayer.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    
+        min-height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;     
+     }
+
+.item{
+    
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-size: 75px;
+    }
+
+.itemsList{
+    
+    width: 100vw;
+    height: 400px;
+    background-color:blue; 
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin: auto;
+        }
+
+  .players
+  {   letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: center;
+      border: 2px solid rgba(0, 17, 200, 0.6);
+      background: white;
+      color:black;
+      box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+      border-radius: 10px;
+      padding: 3px 5px;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+
+  .selectButtons, .startOverbutton, .homeButton, .startGameButton
+{   letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgba(0, 17, 200, 0.6);
+    background: white;
+    color:black;
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+    border-radius: 10px;
+    padding: 3px 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: larger;
+    color: red;
+    font-weight: bold;
+  }
+
+  .gameSelection {
+
+    color: rgb(13, 0, 255);
+    padding: 10px;
+  }
+
+  label {
+font-size: bold;
+color:rgb(47, 0, 255);
+font-weight: bold;
+  }
+
+
+  .inputPlayer {
+border-color: rgb(47, 0, 255);
+
+  }
+
+  .gameTitle{
+
+    font-size: x-large;
+    padding: 5px 5px; 
+  }
+
+  .hideGamecontainer{
+display: none; 
+
+  }
